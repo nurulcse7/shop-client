@@ -1,19 +1,19 @@
-# Dental Care
+# Shop
 
 #### Live link
 
-`Live website` [Click here](https://dental-care-com.web.app/)
-<!-- `client-side` [Click here](https://dental-care-com.web.app/) -->
-<!-- `server-side` [Click here](https://dental-care-server-rho.vercel.app) -->
+`Live website` [Click here]()
+<!-- `client-side` [Click here]() -->
+<!-- `server-side` [Click here]() -->
 
 #### Code link 
 
-<!-- `GitHub` [Click here](https://github.com/nurulcse7/dental-care-client) -->
-`client-side` [Click here](https://github.com/nurulcse7/dental-care-client)
-`server-side` [Click here](https://github.com/nurulcse7/dental-care-server)
+<!-- `GitHub` [Click here]() -->
+`client-side` [Click here]()
+`server-side` [Click here]()
 
 ### Description
-- This project implements dental care services that need a specialist Dentist. Here people can take a dental service in their flexible time slot with service categories. Also, he/she can do one more service in a day but not at the same time. The user can't take a service without login and login form also validation implemented, such as full name is required, password must be 6 characters, need a uppercase (CAPITAL) and a special character (!@#$&*).
+- This project implements shop services that need a specialist Dentist. Here people can take a dental service in their flexible time slot with service categories. Also, he/she can do one more service in a day but not at the same time. The user can't take a service without login and login form also validation implemented, such as full name is required, password must be 6 characters, need a uppercase (CAPITAL) and a special character (!@#$&*).
 - Admin can manage the whole website, and also he manages users, Doctors like to add or delete.
 - Anyone can contact with admin by using the contact form.
 - Implement user email verification enable
@@ -24,7 +24,7 @@
 - Connect server with MongoDB Database
 - Implement CRUD operation
 - Payment Gateway implement with Stripe 
-- Email sending service with Nodemailer and Mailgun
+<!-- - Email sending service with Nodemailer and Mailgun -->
 - Every section completed after code push on GitHub 
 
 --- 
@@ -33,7 +33,7 @@
 - Custom Design 
 - SEO Friendly 
 - Mobile and PC, Tablet Responsive 
-- Doctors Management 
+- Orders Management 
 - Customers Management 
 - Add to Cart / Book Appointment 
 - Payment Gateway 
@@ -43,41 +43,48 @@
 
 #### Front-end Technology
 
-- Firebase for authentication and deploy (hosting)
-- Tailwind CSS
-- daisyUI
+<!-- - Firebase for authentication and deploy (hosting) -->
+- ReactBootstrap
 - JavaScript
 - ReactJS
-- React Query 
+<!-- - React Query  -->
 - React Router - (npm install react-router-dom)
-- React-Context (AuthProvider)
+<!-- - React-Context (AuthProvider)
 - React Hook Form (npm install react-hook-form)
 - React-Hot-Toast (npm install react-hot-toast) [Docs](https://react-hot-toast.com/docs)
 - React-Toastify (npm i react-toastify)
-- React Icons (npm install react-icons --save) [Docs](https://react-icons.github.io/react-icons/)
+- React Icons (npm install react-icons --save) [Docs](https://react-icons.github.io/react-icons/) -->
 
-- React Day Picker (npm install react-day-picker date-fns)
-- TypewriterJS (npm i typewriter-effect)
+<!-- - React Day Picker (npm install react-day-picker date-fns)
+- TypewriterJS (npm i typewriter-effect) -->
 - StripeJS (npm install --save @stripe/react-stripe-js @stripe/stripe-js)
-- EmailJS (npm install @emailjs/browser --save) 
-- React-phone-number-input (npm i react-phone-number-input) [Docs](https://www.npmjs.com/package/react-phone-number-input)
+<!-- - EmailJS (npm install @emailjs/browser --save)  -->
+<!-- - React-phone-number-input (npm i react-phone-number-input) [Docs](https://www.npmjs.com/package/react-phone-number-input) -->
 
 #### Back-end Technology
 
 - Node.JS
+- ExpressJS
 - Nodemon (npm install -g nodemon)
   for server live when coding [Docs1](https://nodemon.io/) and [Docs2](https://www.npmjs.com/package/nodemon)
-
+- Cors
+- DotENV
+- Bcrypt 
 - MongoDB (Atlas, Cluster) for database [Docs](https://cloud.mongodb.com/)
+- Mongoose 
+- Cloudinary
+- Socket.io 
 
-- React Query/ TanStack Query (npm i @tanstack/react-query)
+<!-- - React Query/ TanStack Query (npm i @tanstack/react-query) -->
 
-- JWT (JSON Web Token) for authorization (npm i jsonwebtoken) [Docs](https://www.npmjs.com/package/jsonwebtoken)
+<!-- - JWT (JSON Web Token) for authorization (npm i jsonwebtoken) [Docs](https://www.npmjs.com/package/jsonwebtoken) -->
 
 - Stripe for payment get way (npm install --save stripe) [Docs1](https://stripe.com/docs/payments/quickstart) [Docs2](https://stripe.com/docs/testing)
 
-- Nodemailer (npm install nodemailer) [Docs](https://nodemailer.com/about/)
-- Mailgun () [Docs](https://app.mailgun.com/mg/dashboard) (https://www.npmjs.com/package/nodemailer-mailgun-transport) (npm i nodemailer-mailgun-transport)
+- Validator 
+
+<!-- - Nodemailer (npm install nodemailer) [Docs](https://nodemailer.com/about/)
+- Mailgun () [Docs](https://app.mailgun.com/mg/dashboard) (https://www.npmjs.com/package/nodemailer-mailgun-transport) (npm i nodemailer-mailgun-transport) -->
 
 #### Deploy (Hosting)
 - Deploy frontend in Firebase (Client) [Docs](https://console.firebase.google.com/)
